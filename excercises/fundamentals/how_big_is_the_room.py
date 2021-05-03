@@ -16,10 +16,10 @@
 room_length = input('Enter the length of the room in meters: ')
 room_width = input('Enter the width of the room in meters: ')
 
-FEET_CONST = 10.764
+FEET_CONST = 10.7639
 square_space = float(room_length) * float(room_width)
 
-square_feet = square_space * FEET_CONST
-#square_feet = float("{0:.2f}".format(square_feet))
+square_feet = round(square_space * FEET_CONST, 2)
+
 
 print(f"The are of the room is {square_space} square meters ({square_feet} square feet)")
