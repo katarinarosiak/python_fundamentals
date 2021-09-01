@@ -4,24 +4,6 @@
 # Copy Code
 
 
-words = [
-    "demo",
-    "none",
-    "tied",
-    "evil",
-    "dome",
-    "mode",
-    "live",
-    "fowl",
-    "veil",
-    "wolf",
-    "diet",
-    "vile",
-    "edit",
-    "tide",
-    "flow",
-    "neon",
-]
 # Write a program that prints out groups of words that are anagrams. Anagrams are words that have the same exact letters in them but in a different order. Your output should look something like this:
 
 # Copy Code
@@ -56,6 +38,24 @@ words = [
 # 2. print the groups in separate lines
 # - iterate through array of arrays
 # - print each array
+words = [
+    "demo",
+    "none",
+    "tied",
+    "evil",
+    "dome",
+    "mode",
+    "live",
+    "fowl",
+    "veil",
+    "wolf",
+    "diet",
+    "vile",
+    "edit",
+    "tide",
+    "flow",
+    "neon",
+]
 
 
 def is_in_list(word, nested_list):
