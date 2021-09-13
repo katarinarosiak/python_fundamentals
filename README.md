@@ -1,1 +1,1 @@
-Exercises to practice fundamentals of Python. 
+Exercises to practice problem solving skills and fundamentals of Python. 
